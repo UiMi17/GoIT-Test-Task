@@ -1,5 +1,29 @@
 @import "../node_modules/modern-normalize/modern-normalize.css";
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+/**
+  |============================
+  | Common
+  |============================
+*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 /**
   |============================
   | Reset
